@@ -1,6 +1,6 @@
 <template>
 
-    <UContainer class="flex justify-center items-center h-screen">
+    <div class="flex justify-center items-center h-screen">
 
         <UCard class="w-96">
 
@@ -39,7 +39,7 @@
 
             </template>
         </UCard>
-    </UContainer>
+    </div>
 </template>
 <script setup lang="ts">
 import { z } from 'zod'

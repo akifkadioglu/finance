@@ -24,7 +24,7 @@
                 <span>Switch Mode</span>
             </div>
             <div class="flex items-center space-x-2">
-                <NuxtLink :to="pages.LOGIN">
+                <NuxtLink :to="pagePath(Pages.LOGIN)">
                     <UButton :ui="{ rounded: 'rounded-full' }" v-motion :visible="{ scale: 1 }" :tapped="{ scale: 0.8 }"
                         variant="ghost" color="gray">
                         <Icon size="30" :name="icon.LOGOUT" />

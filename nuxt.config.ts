@@ -8,9 +8,11 @@ export default defineNuxtConfig({
     "@vite-pwa/nuxt",
     "@morev/vue-transitions/nuxt",
     "@pinia/nuxt",
+    "nuxt-time",
   ],
   app: {
     pageTransition: { name: "page", mode: "out-in" },
+    layoutTransition: { name: "page", mode: "out-in" },
   },
 
   pwa: {

@@ -10,4 +10,5 @@ export const icon = {
   CREATOR: "material-symbols:sports-gymnastics-rounded",
   LOGOUT: "material-symbols:logout-rounded",
   ADD_ORGANIZATION: "material-symbols:domain-add",
+  HOME: "material-symbols:other-houses",
 };
